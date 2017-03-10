@@ -1,0 +1,138 @@
+section.cont{
+	background-color:#176093; 
+}
+
+
+section.cont div.part{
+	margin: 20px 20px 20px 20px;
+	border: 2px solid #032A46;
+	border-radius: 5px;
+	padding: 0px 10px 10px 10px;
+}
+
+section.cont span.deport{
+	display: inline-block;
+	color:#dcecfc;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-left: 30px; 
+	margin-top: -15px;
+	margin-bottom: 10px;
+	background-color: #176093;
+	padding-left: 3px;
+	padding-right: 5px;
+}
+
+
+section.cont div.part div.tabla{
+	width: 100%;
+	height: 120px;
+	background: #032A46;
+	display: block;
+	margin-bottom:20px;
+	border-radius: 3px;
+}
+
+
+section.cont div.part div.tabla img.deporte{
+	width: 22%;
+	height: 100%;
+	display: block;
+	float: left;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background: rgb(7,152,54);
+
+}
+
+section.cont div.part div.tabla div.info{
+	width: 76%; 
+	float: left;
+	display: block;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	color: #dcecfc;
+	padding:1%;
+}
+
+
+section.cont div.part div.tabla div.info p.deport{
+	background: #176093;
+	display: inline-block;
+	text-align: left;
+	font-weight: bold;
+	border-radius: 3px;
+	text-align: center;
+	margin-right: 2%;
+	padding: 5px;
+}
+
+section.cont div.part div.tabla div.info p.vs{
+	background: #176093;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 3px;
+}
+section.cont div.part div.tabla div.info div.inf {
+	margin-left: 40%;
+	margin-top: 3px;
+}
+
+section.cont div.part div.tabla div.info div.inf a.liga{
+	background: green;
+	background: #176093;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: #dcecfc;
+	margin-left: 3%;
+	border-radius: 3px;
+}
+
+section.cont div.part div.tabla div.info time.fecha{
+	/*width: 70px;*/
+	background: #176093;
+	display:  inline-block;
+	text-align: center;
+	margin-left: 2%;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+section.cont div.part div.tabla div.info div.boton a{
+	width: 50%;
+  	display: block;
+  	text-align: center;
+  	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 20%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-decoration: none;
+	font-weight: bold;
+  	font-size: 1em;
+  	border: none;
+  	background-color: rgb(190,46,46);
+	border-radius: 5px;
+  	color:#dcecfc;
+  	cursor: pointer;
+    -webkit-transition: all 0.2s ease; 
+    -o-transition: all 0.2s ease;
+  	transition: all 0.2s ease;
+  	box-shadow: 5px 5px rgba(44,44,44,0.4);
+  	border-bottom:3px solid rgb(80,19,19);
+}
+
+section.cont div.part div.tabla div.info div.boton a:hover {
+  background: rgb(120,29,29);
+  box-shadow: 3.5px 3.5px rgba(44,44,44,0.7);
+   border-bottom:2px solid rgb(80,19,19);
+}
+
+section.cont div.part div.tabla div.info div.boton a:active{
+  background: rgb(80,19,19);
+  box-shadow: 2px 2px rgba(44,44,44,0.9);
+}
+
+

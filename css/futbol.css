@@ -1,0 +1,221 @@
+* {
+	margin: 0;
+	padding: 0;}
+
+header{
+	display: block;
+	background: #00796B;
+	width: 100%;
+	height: 45px;
+	position: fixed;
+}
+
+header div.icon-menu{
+	display: block;
+	position: absolute;
+ 	height: 30px;
+ 	width: 50px;
+	padding-top: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+	color: #B6B6B6;
+	
+}
+
+header div.icon-menu:hover{
+background:#f2f2f2;
+}
+
+header ul.menu2 {
+	float: right;
+}
+
+header ul.menu2 li{
+	list-style: none;
+	display: inline-block;
+}
+
+header ul.menu2 li a {
+	display: block;
+	height: 30px;
+	width: 40px;
+	margin-right: 10px;
+	padding-top: 15px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: #B6B6B6;
+}
+
+header ul.menu2 li a:hover {
+background:#f2f2f2;
+}
+
+nav {
+	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	display: block;
+	position: fixed;
+  	margin-top: 45px;
+  	float: left;
+  	width: 15%;
+  	height: 100%;
+  	background: #009688;
+  	color: #B6B6B6;
+}
+
+div.perfil{
+	display: block;
+	background: red;
+	padding: 20px 10px;
+	height: 40%;
+}
+
+div.perfil img{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border-radius: 50%;
+	border: 2px solid #f2f2f2;
+}
+
+div.nombre,div.punto{
+	display: block;
+	margin-top: 10px;
+	font-size: 1em;
+	color: #fff;
+	background: blue;
+	text-align: center;
+}
+
+div.padre{
+	display: block;
+	float: left;
+	margin-top: 45px;
+	background: yellow;
+	width: 100%;
+	color: #B6B6B6;
+} 
+div.publi{
+	display: block;
+	background: grey;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+
+section.cont {
+	-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;	
+	display: block;
+	float: left;
+	margin-left: 15%;
+	background: #727272;
+	width: 60%;
+	color: #B6B6B6;
+	padding-left: 5%;
+	
+}
+
+
+aside.publicidad{
+	display: block;
+	background: blue;
+	float: left;
+	width: 20%;
+	height: 100%;
+}	
+
+.pie{
+	clear: both;
+	display: block;
+	background: orange;
+	height: 25px;
+	text-align: center;
+}
+
+table.juego tr td img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+
+}
+
+div.categoria{
+	background: blue;
+	height: 60%;
+	padding-top: 5px;
+	padding-left: 15px;
+
+}
+
+div.categoria p{
+	background: red;
+	text-align: center;
+}
+
+div.categoria ul li{
+	list-style: none;
+	/*background: red;*/
+	display: block;
+	margin-top: 3px;
+	color: #f2f2f2;
+}
+
+div.categoria ul li:hover{
+	background: #f2f2f2;
+}
+
+
+div.categoria ul li a {
+	text-decoration: none;
+	color: #f2f2f2;
+
+}
+
+
+aside.publicidad p {
+	background: red;
+	text-align: center;	
+	margin-top: 10%;
+}
+
+section.cont div.tabla{
+	background: red;
+	display: block;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+section.cont div.tabla img.deporte{
+	height: 80px;
+	width: 80px;
+	margin: auto;
+	display: block;
+}
+
+section.cont div.tabla p.deport1 p.deport2{
+	text-align: center;
+}
+
+section.cont div.tabla p.vs{
+	text-align: center;
+
+}
+
+section.cont div.tabla time.fecha{
+
+}
+
+section.cont div.tabla div.boton{
+	background: blue;
+	text-align: center;
+	margin-top: 10px;
+	cursor: pointer;
+	color: #B6B6B6;
+
+}
+

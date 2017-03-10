@@ -1,0 +1,140 @@
+aside.publicidad{
+	display: block;
+	background: #dcecfc;
+	float: left;
+	width: 22%;
+	height: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: 3px;
+	color: #dcecfc;
+
+}	
+
+
+aside.publicidad div.invi{
+	display: block;
+	background-color: #032A46;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+
+aside.publicidad div.invi p.titulo{
+	display: inline-block;
+	padding: 2px 10px 2px 10px;
+	text-align: center;
+	background-color: #176093;
+	border-radius: 3px;
+	color: #dcecfc;
+	margin-left: 18%;
+}
+
+aside.publicidad div.invi p.contenido{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: .8em;
+}
+
+aside.publicidad form.invi{
+	display: block;
+	width: 80%;
+}
+
+
+
+aside.publicidad form.invi label.invi{
+	display: block;
+	padding: 2px;
+	border-radius: 3px;
+}
+
+aside.publicidad form.invi input.invi{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+	border: 2px solid #176093;
+	background-color: #176093;
+	color:#dcecfc;
+ }
+
+
+
+div.tooo{
+	background-color: red;
+	margin-top: 10px;
+	padding: 10px 4px 4px 4px;
+	border-radius: 3px;
+}
+
+ div.altj{
+ 	background-color: #032A46;
+ 	margin-top: 20px;
+ 	border-radius: 3px;
+ 	width: 96%;
+ 	padding: 5px;
+ }
+
+
+ div.altj img{
+ 	display: inline-block;
+ 	width: 60px;
+ 	height: 60px;
+ 	border-radius: 50%;
+ 	border: 1px solid #176093;
+ }
+
+ div.altj div.chul{
+ 	position: absolute;
+ 	display: inline-block;
+ 	height: 60px;
+ 	margin-left: 5px;
+ 	margin-top: 5px;
+
+ }
+
+ div.altj div.chul p.nomb{
+ 	display: inline-block;
+ 	margin-bottom: 5px;
+ 	background-color: #176093;
+ 	padding: 2px 5px 2px 5px;
+ 	border-radius: 3px;
+ }
+
+  div.altj div.chul p.jugada{
+  	font-size: .9em;
+  }
+
+
+div.lig{
+background-color: #032A46;
+border-radius: 3px;
+padding: 10px 6px 4px 6px;
+margin-top: 10px;
+}
+
+ a.lig{
+	display: block;
+	margin-bottom: 4px;
+	padding: 5px 0px 5px 0px;
+	color:#dcecfc;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #176093; 
+}
+ a div.liga{
+	display: block;
+	margin-left: 5%;
+}
+
+a div.liga span.lig{
+	display: inline-block;
+	margin: 10px;
+}
+
+a.lig:hover{
+	background-color:#032A46; 
+}

@@ -1,0 +1,139 @@
+*{
+	font-family: 'Roboto';
+	color: #dcecfc;
+}
+
+
+section.cont{
+	width: 83%;
+	background-color: #176093;
+}
+section.cont div.categoria{
+	padding-left: 5%;
+	background: #032A46;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+
+}
+section.cont div.categoria ul li {
+	display:inline-block;
+	list-style: none;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #dcecfc;
+	font-size: 0.9em;
+}
+
+
+
+section.cont div.categoria ul li.act {
+background-color: #176093;
+}
+
+
+div.opt{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-left: 30px; 
+	margin-top: -15px;
+	color:#dcecfc;
+	
+}
+
+section.cont span.per{
+	background-color: #176093;
+	display: inline-block;
+	margin-right: 30px;
+	padding-left: 3px;
+	padding-right: 5px;
+	color: #dcecfc;
+}
+
+
+section.cont div.perfil{
+	margin: 40px 20px 20px 20px;
+	border: 2px solid #032A46;
+	border-radius: 5px;
+}
+
+
+
+section.cont div.perfil div.suss div.oferta {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 30px;
+
+}
+
+section.cont div.perfil div.suss div.tar{
+	display: inline-block;
+	width: 20%;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+
+section.cont div.perfil div.suss div.tar h2{
+	padding-top: 20px;
+	padding-bottom:20px;
+	text-align: center;
+	font-size: 1em;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+
+}
+
+section.cont div.perfil div.suss div.tar h2.bronze{
+	background: rgb(205,127,50);
+}
+section.cont div.perfil div.suss div.tar h2.plata{
+	background: #657072;
+}
+section.cont div.perfil div.suss div.tar h2.oro{
+	background: rgb(212,175,55);
+}
+
+section.cont div.perfil div.suss div.tar div.list ul li{
+	background: red;
+	list-style: none;
+	margin-top: 3px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	background: #032A46;
+	font-size: .9em;
+}
+
+section.cont div.perfil div.suss div.tar div.list ul li span.icono{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+section.cont div.perfil div.suss div.info {
+	margin-top:20px;
+}
+
+section.cont div.perfil div.suss  div.onn{
+	display: inline-block;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 2.5%;
+	background: #032A46;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+section.cont div.perfil div.suss  div.onn span{
+	margin-left: 36%;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+section.cont div.perfil div.suss  div.onn p{
+	font-size: .9em;
+	margin: 5px;
+	padding-top: 10px;
+	text-align: center;
+}

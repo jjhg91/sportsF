@@ -1,0 +1,61 @@
+section.cont div.crefe{
+	margin: 40px 20px 20px 20px;
+	border: 2px solid #032A46;
+	border-radius: 5px;
+}
+
+
+
+div.cate{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-left: 30px; 
+	margin-top: -15px;
+	color:#dcecfc;
+	
+}
+section.cont span.ref{
+	background-color: #176093;
+	display: inline-block;
+	margin-right: 30px;
+	padding-left: 3px;
+	padding-right: 5px;
+}
+
+section.cont span.ref a{
+	color: #dcecfc;
+	text-decoration: none;
+}
+
+section.cont span.ref a:hover{
+	color: #032A46;
+}
+
+
+section.cont div.referido{
+	background: rgba(44,44,44,0.5);
+	color:#dcecfc;
+	margin: 10px 20px 10px 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+section.cont div.referido span.icon-user-plus{
+	display: inline-block;
+	background: #dcecfc;
+	color: rgb(44,44,44);
+	font-size: 2em;
+	border:3px solid #dcecfc;
+	border-radius: 5px;
+}
+
+section.cont div.referido p{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: .9em;
+}
+
+section.cont div.referido p span.referido{
+	font-weight: bold;
+	font-size: 1.3em;
+}

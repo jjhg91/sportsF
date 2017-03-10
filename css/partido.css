@@ -1,0 +1,181 @@
+section.cont{
+  background-color:#176093; 
+}
+
+form.for_partido{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-right: 8%;
+  margin-left: 8%;
+  border: 2px solid #032A46;
+  border-radius: 5px;
+}
+form.for_partido div.equipo{
+  display: inline-block;
+  background-color: #032A46;
+  width: 250px;
+  border-bottom: 1px solid #032A46;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  margin-left: 1%;
+}
+
+form.for_partido div.em{
+  width: 100px;
+
+}
+form.for_partido div.equipo span{
+  display: block;
+  text-align:center;
+  height: 60px;
+  font-size: 2.5em;
+  color:#dcecfc;
+  font-weight: bold;
+  font-style: italic;
+}
+
+form.for_partido div.equipo p.em{
+  margin-top: 15px; 
+  display: inline-block;
+}
+
+form.for_partido input[type="radio"]{
+  display: none;
+}
+
+form.for_partido div.equipo label{
+  margin-left:40%;
+}
+
+form.for_partido  div.em span.em{
+  font-size: 1.5em;
+}
+
+
+form.for_partido div.em label{
+  margin-left: 22%;
+}
+form.for_partido label{
+  margin-top: 20px;
+  display: inline-block;
+  width: 40px;
+  background-color: #176093;
+  cursor: pointer;
+  border: 2px solid  #176093;
+  color:#dcecfc;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 1em;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; 
+}
+form.for_partido label:hover{
+ color:#dcecfc;
+  background-color: #032A46;
+  border: 2px solid  #dcecfc;
+}
+
+form.for_partido input[type="radio"]:checked + label{
+  background-color: #032A46;
+  border: 2px solid  #dcecfc;
+}
+
+
+form.for_partido input[type="text"], 
+form.for_partido input[type="range"]{
+  display: block;
+  width: 150px;
+  height: 30px; 
+  border-radius: 5px;
+  border: 2px solid #032A46;
+  background: #032A46;
+  color:#dcecfc;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-left: 38%;
+  padding-left: 2px;
+  padding-right: 2px;
+  cursor: pointer;
+}
+
+form.for_partido input[type="text"]:hover, 
+form.for_partido input[type="range"]:hover{
+  border: 2px solid #dcecfc;
+  background-color: #176093;
+}
+
+form.for_partido input[type="text"]:focus, 
+form.for_partido input[type="range"]:focus{
+  border: 2px solid #dcecfc;
+  background-color: #176093;
+}
+
+form.for_partido input[type="submit"]{
+  display: inline-block;
+  font-size: 1em;
+  border: none;
+  background-color: rgb(190,46,46);
+  border-radius: 5px;
+  color:#dcecfc;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease; 
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  margin-top: 20px;
+  margin-left: 25%;
+  padding: 10px ;
+  width: 50%;
+  box-shadow: 5px 5px rgba(44,44,44,0.4);
+  border-bottom:3px solid rgb(80,19,19);
+}
+
+form.for_partido input[type="submit"]:hover{
+  background: rgb(120,29,29);
+  box-shadow: 3.5px 3.5px rgba(44,44,44,0.7);
+  border-bottom:2px solid rgb(80,19,19);
+}
+
+form.for_partido input[type="submit"]:active{
+
+  background: rgb(80,19,19);
+  box-shadow: 2px 2px rgba(44,44,44,0.9);
+}
+
+form.for_partido div.inf{
+  margin-top: 5px;
+  margin-left: 70px;
+  margin-bottom: 60px;
+  display: block;
+  color:#dcecfc;
+  font-size: 1em;
+}
+form.for_partido div.inf p{
+  display: inline-block;
+  margin-right: 5px;
+  background-color:#032A46;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px; 
+  font-style: italic;
+}
+form.for_partido div.inf span.fech{
+float: right;  
+display: inline-block;  
+margin-right: 90px;
+color:#dcecfc;
+background: #032A46;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 2px;
+font-style: italic;
+}
+
+
+
+form.for_partido input[type="text"].part{
+  display: none;
+}

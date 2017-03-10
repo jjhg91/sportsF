@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {/*
+  background: url("../imagenes/foto.png");*/
+  background-size: cover;
+  font-family: "Roboto";
+  }
+
+.wrap {
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 0px 3px grey; }
+
+
+.prueba{
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  width: 110px;
+  height: 60px;
+  margin-top: 5%;
+  margin-left: 40%;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
+  background-color: rgb(190,46,46);
+  border-radius: 5px;
+  color:#dcecfc;
+  cursor: pointer;
+  box-shadow: 5px 5px rgba(44,44,44,0.4);
+  border-bottom:3px solid rgb(80,19,19);  
+}
+
+.prueba:hover {
+  background: rgb(120,29,29);
+  box-shadow: 3.5px 3.5px rgba(44,44,44,0.7);
+  border-bottom:2px solid rgb(80,19,19);
+}
+
+.prueba:active{
+  background: rgb(80,19,19);
+  box-shadow: 2px 2px rgba(44,44,44,0.9);
+}
+
+
+.contenedor-formulario {
+  width: 0;
+  overflow: hidden; 
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;}
+
+  .contenedor-formulario .formulario {
+    width: 100%;
+    margin: auto; }
+    .contenedor-formulario .formulario .input-group {
+      position: relative;
+      margin-bottom: 32px; }
+      .contenedor-formulario .formulario .input-group input[type="email"],
+      .contenedor-formulario .formulario .input-group input[type="password"] {
+        font-family: "Roboto";
+        font-size: 16px;
+        color: #303F9F;
+        width: 100%;
+        outline: none;
+        padding: 15px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #BBDEFB; }
+        .contenedor-formulario .formulario .input-group input[type="email"]:focus,
+        .contenedor-formulario .formulario .input-group input[type="email"]:active,
+        .contenedor-formulario .formulario .input-group input[type="password"]:focus,
+        .contenedor-formulario .formulario .input-group input[type="password"]:active {
+          outline: none;
+          border-bottom: 2px solid #303F9F; }
+        .contenedor-formulario .formulario .input-group input[type="email"].error,
+        .contenedor-formulario .formulario .input-group input[type="password"].error {
+          border-bottom: 2px solid #D32F2F; }
+          .contenedor-formulario .formulario .input-group input[type="email"].error + label,
+          .contenedor-formulario .formulario .input-group input[type="password"].error + label {
+            color: #D32F2F; }
+      .contenedor-formulario .formulario .input-group label {
+        color: #303F9F; }
+        .contenedor-formulario .formulario .input-group label.label {
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          margin-left: 15px;
+          font-size: 16px;
+          line-height: 16px;
+          position: absolute;
+          top: 16px;
+          left: 0; }
+          .contenedor-formulario .formulario .input-group label.label.active {
+            top: -12px;
+            font-size: 12px;
+            line-height: 12px;
+            color: #B6B6B6; }
+    .contenedor-formulario .formulario input[type="submit"] {
+      background: #303F9F;
+      border-radius: 1px;
+      border: 2px solid #f2f2f2;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Roboto";
+      font-size: 16px;
+      padding: 15px;
+      width: 100%;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.5s ease; }
+      .contenedor-formulario .formulario input[type="submit"]:hover {
+        background: #1976D2; }
+
+
+p{
+  color: #303F9F;
+  text-align: right;
+}
+
+p a{
+  text-decoration: none;
+  color: red;
+}
+
+p a:hover{
+  color: #303F9F;
+
+}
+
+/*PRUEBA ANIMACION!!!!*/
+div.parpa{
+color: black;
+font-weight: bold;
+font-size: 1em;
+
+}
+
+div.parpa:hover{
+ animation-name: parpa;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+}
+
+@keyframes parpa{
+  from{color: black;}
+  33%{color:red;}
+  66%{color:blue;}
+  to%{color:orange;}
+}
+
+
+
+.hola{
+  background: orange;
+  cursor: pointer;
+  display: inline-block;
+  margin: 50px;
+}
+.chao{
+background: green;
+}
+

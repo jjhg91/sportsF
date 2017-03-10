@@ -1,0 +1,9 @@
+footer.pie{
+	clear: both;
+	display: block;
+	background: rgb(20,20,20);
+	color: #dcecfc;
+	height: 25px;
+	text-align: center;
+	padding-top: 5px;
+}

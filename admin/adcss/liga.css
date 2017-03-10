@@ -1,0 +1,120 @@
+div.agregarl{
+	background: blue;
+	padding: 10px;
+	display: inline-block;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+
+div.agregar{
+	margin-top: 10px;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.5s ease;
+}
+div.visible{
+	height: 100px;
+	display: block; 
+}
+
+form{
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 3px solid #032A46;
+	border-radius: 5px;
+}
+
+div.grupo{
+	margin-top: 1%;
+	display: block;
+	margin-bottom: 5px;
+
+}	
+
+div.nover{
+	display: none;
+}
+
+label{
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+}
+
+select,
+input[type="text"]{
+	display: inline-block;
+	padding: 5px ;
+	font-size: .8em;
+	border: 1px solid #032A46;
+	border-radius: 5px;
+	width: 40%;
+}
+
+input[type="submit"]{
+	color:#dcecfc;
+	background-color: #032A46;
+	border:none;
+	border: 3px solid #032A46;
+	border-radius: 5px;
+	width: 30%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 18%;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background-color: #176093;
+	border: 3px solid #176093;
+}
+
+
+section div.todo{
+	margin-top: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 3px solid #032A46;
+	border-radius: 5px;
+}
+
+section div.todo div.deporte{
+	background-color: #032A46;
+	display: block;
+	margin-top: -3px;
+	margin-left:-3px;
+	border-top-left-radius: 5px; 
+}
+
+section div.todo div.deporte p{
+	display: block;
+	color: #dcecfc;
+	padding: 10px;
+	margin-left: 5%;
+	font-size: 2em;
+}
+
+
+section a{
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color:#dcecfc;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 3px solid #176093;
+	background-color: #176093; 
+}
+section a div.liga{
+	display: block;
+	margin-left: 10%;
+}
+
+section a div.liga span{
+	display: inline-block;
+	margin: 10px;
+}

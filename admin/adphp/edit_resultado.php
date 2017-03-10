@@ -1,0 +1,75 @@
+<?php 
+	include("../../php/conn.php");
+
+	$partido = $_POST['partido'];
+	
+
+	$puntuacion_h = $_POST['resultado_h'];
+	$puntuacion_v = $_POST['resultado_v'];
+
+
+
+
+	$qt=$conn->query("SELECT id_usuarios1, puntos_a_ganar from jugadas
+				WHERE  id_partidos1 = '$partido' AND jugada = id_rjugada1;");
+	while ($qtar=$qt->fetch_array(MYSQLI_ASSOC)) {
+		
+		$qpun=$qtar['puntos_a_ganar'];
+		$qusua=$qtar['id_usuarios1'];
+		$qpup =$conn->query("UPDATE puntos SET puntos_ganados=(puntos_ganados-'$qpun') where id_usuarios2 = '$qusua';");
+
+	}
+
+
+
+
+
+
+	$upd = "UPDATE partidos SET puntuacion_h = '$puntuacion_h', puntuacion_v='$puntuacion_v', actualizado='2'  WHERE id_partidos = '$partido' AND actualizado= 2;";
+
+	$cupd = mysqli_query($conn,$upd);
+
+	if($cupd){
+		
+		if ($puntuacion_h > $puntuacion_v) {
+			$resultado = 2;
+		}elseif($puntuacion_h === $puntuacion_v){
+			$resultado = 3;
+		}elseif($puntuacion_h < $puntuacion_v){
+			$resultado = 4;
+		}
+
+		
+		
+		$juga = "UPDATE jugadas SET id_rjugada1= '$resultado' WHERE id_partidos1 = '$partido';";
+		
+
+
+
+
+
+		if ($cjuga = $conn->query($juga)){
+
+			$buc ="SELECT id_usuarios1, puntos_a_ganar from jugadas
+				WHERE  id_partidos1 = '$partido' AND jugada = id_rjugada1;";
+			$cbuc =$conn->query($buc);
+			while ($dbuc = $cbuc->fetch_array(MYSQLI_ASSOC)){
+				$pun=$dbuc['puntos_a_ganar'];
+				$usua=$dbuc['id_usuarios1'];
+				$pup ="UPDATE puntos SET puntos_ganados=(puntos_ganados+'$pun') where id_usuarios2 = '$usua';";
+				$cpup = mysqli_query($conn,$pup);
+
+				if ($cpup){ header('Location: ../resultado.php');
+				}
+			
+			}
+			
+		}else{echo'algo pao';}
+
+
+		
+	}else{echo'algo malo paso';}
+
+
+
+ ?>

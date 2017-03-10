@@ -1,0 +1,39 @@
+section.cont div.enjuego{
+	background: rgba(44,44,44,0.5);
+	color:#dcecfc;
+	margin: 10px 20px 10px 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+section.cont div.enjuego span{
+	display: inline-block;
+	background: #dcecfc;
+	color: rgb(44,44,44);
+	font-size: 2em;
+	border:3px solid #dcecfc;
+	border-radius: 5px;
+}
+
+section.cont div.enjuego p{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+section.cont div.crefe{
+	margin: 40px 20px 20px 20px;
+	border: 2px solid #032A46;
+	border-radius: 5px;
+}
+
+section.cont span.ref{
+	display: inline-block;
+	color:#dcecfc;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-left: 30px; 
+	margin-top: -15px;
+	background-color: #176093;
+	padding-left: 3px;
+	padding-right: 5px;
+}

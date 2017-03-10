@@ -1,0 +1,264 @@
+div.opt{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-left: 30px; 
+	margin-top: -15px;
+	color:#dcecfc;
+	
+}
+
+section.cont span.per{
+	background-color: #176093;
+	display: inline-block;
+	margin-right: 30px;
+	padding-left: 3px;
+	padding-right: 5px;
+}
+
+section.cont span.per a{
+	color: #dcecfc;
+	text-decoration: none;
+}
+
+section.cont span.per a:hover{
+	color: #032A46;
+}
+
+
+
+
+
+
+section.cont div.perfil{
+	margin: 40px 20px 20px 20px;
+	border: 2px solid #032A46;
+	border-radius: 5px;
+}
+
+
+
+
+
+section.cont form.datos,
+section.cont form.imagen{
+	display:block;
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+section.cont form div.grup{
+	margin-bottom:5px; 
+}
+
+section.cont form.datos label,
+section.cont form.imagen label{
+	display: inline-block;
+	color:#dcecfc;
+	width: 25%;
+	text-align: right;
+	
+}
+
+section.cont  form.datos input[type="text"],
+section.cont form.imagen input[type="file"],
+section.cont  form.datos select,
+section.cont form.imagen select{
+	display: inline-block;
+	padding: 5px ;
+	font-size: .8em;
+	border: 1px solid #032A46;
+	background-color: #032A46;
+	border-radius: 5px;
+	color:#dcecfc;
+	cursor: pointer;
+	width: 50%;
+	
+}
+
+section.cont form.datos input[type="text"]:hover,
+section.cont form.imagen input[type="file"]:hover,
+section.cont form.imagen select:hover,
+section.cont form.imagen select:hover{
+	background-color: #176093;
+	border: 1px solid #dcecfc;
+}
+
+section.cont form.datos input[type="text"]:focus,
+section.cont form.imagen input[type="file"]:focus,
+section.cont form.imagen select:focus,
+section.cont form.imagen select:focus{
+	background: #176093;
+	border:1px solid #dcecfc;
+}
+
+
+
+
+
+
+
+
+
+section.cont  form.imagen input[type="submit"],
+section.cont  form.datos input[type="submit"]{
+	display: inline-block;
+	font-size: 1em;
+	border: none;
+	background-color: rgb(190,46,46);
+	border-radius: 5px;
+	color:#dcecfc;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease; 
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	margin-top: 20px;
+	margin-left: 25%;
+	padding: 10px ;
+	width: 50%;
+	box-shadow: 5px 5px rgba(44,44,44,0.4);
+	border-bottom:3px solid rgb(80,19,19);
+}
+
+
+section.cont  form.imagen input[type="submit"]:hover,
+section.cont  form.datos input[type="submit"]:hover{
+	background: rgb(120,29,29);
+	box-shadow: 3.5px 3.5px rgba(44,44,44,0.7);
+	border-bottom:2px solid rgb(80,19,19);
+}
+
+section.cont  form.imagen input[type="submit"]:active,
+section.cont  form.datos input[type="submit"]:active{
+
+	background: rgb(80,19,19);
+	box-shadow: 2px 2px rgba(44,44,44,0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.cont div.gano{
+	color: #dcecfc;
+	margin: 10px 20px 0px 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+section.cont div.gano img.foot{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	color: #dcecfc;
+	border: 3px solid #032A46;
+	border-radius: 50%;
+}
+
+section.cont div.gano div {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-weight: bold;
+	
+}
+section.cont div.gano div p.use,
+section.cont div.gano div p.inff span{
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 1.5em;
+	background: #032A46;
+	display: inline-block;
+}
+
+
+
+section.cont div.gano div p.inff span{
+	margin-top: 5px;
+	margin-right: 20px;
+
+}
+
+
+div.infgrafica span{
+	display: inline-block;
+	background: #FFFFFF;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 10%;
+	
+}
+
+div.infgrafica span p{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: .9em;
+}
+
+div.infgrafica span p.total{
+	border-top: 2px solid #cccccc;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+div.infgrafica span.pts{
+	margin-left: 7%;
+}
+
+div.infgrafica span.juegos{
+margin-left: 40%;
+}
+
+
+div.graficas{
+	display: block;
+	
+
+}
+
+div.graficas1{
+	width: 52%;
+	height: 300px;
+	display: inline-block;
+	margin: 1%;
+	
+}
+div.graficas2{
+	width: 44%;
+	height: 300px;
+
+	display: inline-block;
+	margin: 1%;
+}
