@@ -58,10 +58,10 @@ echo'<div class="part">';
 			inner join ligas_equipos on ligas_equipos.id_equipos1=equipos.id_equipos
 			inner join ligas on ligas.id_ligas=ligas_equipos.id_ligas1
 			inner join deportes on deportes.id_deportes=ligas.id_deportes1
-			inner join jugadas on jugadas.id_partidos1=partidos.id_partidos
+			left join jugadas on jugadas.id_partidos1=partidos.id_partidos
 			
 			GROUP BY id_partidos 
-			ORDER BY mas_jugado DESC 
+			ORDER BY fecha ASC 
 			LIMIT 5;";
 	$roo = mysqli_query($conn,$busc);
 	$rooo = mysqli_query($conn,$busc);
@@ -113,6 +113,9 @@ echo'<div class="part">';
 			
 			$link = $roa['id_partidos'];
 
+			
+			$masjugado=$roa['mas_jugado'];
+
 			echo 
 			'<div class="tabla">
 			<img src="imagenes/bat.png" class="deporte">
@@ -120,7 +123,7 @@ echo'<div class="part">';
 			<p class="deport">'.$home.'</p>
 			<p class="deport vs">VS</p>
 			<p class="deport">'.$visitante.'</p>
-			<div class="inf"><time class="fecha">'.$fecha.'</time><a href="#" class="liga">LIGAAAAAAAA</a></div>
+			<div class="inf"><time class="fecha">'.$fecha.'</time><a href="#" class="liga">LIGAAAAAAAA</a><p>'.$masjugado.'</p></div>
 			<div class="boton"><a href="partido.php?partido='.$link.'"><span>Jugar</span></a></div>
 			</div>
 			</div>';

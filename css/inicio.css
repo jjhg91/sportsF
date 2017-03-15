@@ -75,10 +75,14 @@ section.cont div.part div.tabla div.info p.vs{
 	border-radius: 3px;
 }
 section.cont div.part div.tabla div.info div.inf {
-	margin-left: 40%;
+	margin-left: 30%;
 	margin-top: 3px;
 }
 
+section.cont div.part div.tabla div.info div.inf p {
+	display: inline-block;
+	margin-left: 3%;
+}
 section.cont div.part div.tabla div.info div.inf a.liga{
 	background: green;
 	background: #176093;

@@ -21,7 +21,7 @@
 	$jugada = $_POST['jugada'];
 	$punto = $_POST['punto'];
 	$fecha = date("Y-m-d H:i:s",time());
-	
+
 
 
 
